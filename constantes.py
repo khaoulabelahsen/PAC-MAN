@@ -1,8 +1,5 @@
 """Constantes du jeu de Pac Man"""
 
-import pygame
-from pygame.locals import *
-
 #Paramètres de la fenêtre
 nombre_sprite_hauteur = 31
 nombre_sprite_largeur = 28
@@ -11,7 +8,7 @@ hauteur_fenetre = nombre_sprite_hauteur * taille_sprite
 largeur_fenetre = nombre_sprite_largeur * taille_sprite
 
 #Personnalisation de la fenêtre
-titre_fenetre = "Pac-Man"
+titre_fenetre = "Pac Man"
 image_icone = "images/icone.png"
 
 #Listes des images du jeu
@@ -48,11 +45,6 @@ four_haut = "images/ghosts/four_right.png"
 
 image_gum = "images/gum2.png"
 
-image_cherry = "images/bonus/cherry.png"
-image_galaxian = "images/bonus/galaxian.png"
-image_orange = "images/bonus/orange.png"
-image_straw = "images/bonus/strawberry.png"
-
 # SONS DU JEU
 sound_game = "sounds/pacman_beginning.wav"
-sound_death = "sounds/pacman_death.wav"
+sound_chomp = "sounds/pacman_chomp.wav"
